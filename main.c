@@ -34,10 +34,10 @@ struct node* create_node(int val){
 void print_list(struct node *head){
 	struct node *temp = head;
 	while(temp != NULL){
-		printf("%d  ", temp->value);
+		printf("%d - ", temp->value);
 		temp = temp->next;
 	}
-	printf("\n");
+	printf("NULL\n");
 }
 
 
